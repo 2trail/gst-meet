@@ -7,6 +7,7 @@ edition = "2018"
 build = "build.rs"
 license = "MIT/Apache-2.0"
 authors = ["Jasper Hugo <jasper@avstack.io>"]
+repository = "https://github.com/avstack/gst-meet"
 
 [package.metadata.system-deps.nice]
 name = "nice"
