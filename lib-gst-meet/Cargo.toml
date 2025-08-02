@@ -67,6 +67,6 @@ tls-rustls-native-roots = ["tokio-tungstenite/rustls-tls-native-roots", "rustls"
 tls-rustls-webpki-roots = ["tokio-tungstenite/rustls-tls-webpki-roots", "rustls", "webpki-roots"]
 
 [dependencies.aws-lc-rs]
-version = "0.30"
+version = "1.13.3"
 default-features = false
 features = ["bindgen"]
