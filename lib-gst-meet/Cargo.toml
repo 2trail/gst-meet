@@ -41,7 +41,7 @@ sha2 = { version = "0.10", default-features = false, features = ["std"] }
 syntect = { version = "5", optional = true }
 tokio = { version = "1", default-features = false, features = ["rt-multi-thread", "macros", "sync", "time"] }
 tokio-stream = { version = "0.1", default-features = false, features = ["time"] }
-tokio-tungstenite = { version = "0.21", default-features = false, features = ["connect"] }
+tokio-tungstenite = { version = "0.21", default-features = false, features = ["connect", "rustls-tls-native-roots"] }
 tracing = { version = "0.1", default-features = false, features = ["attributes", "std"] }
 tracing-subscriber = { version = "0.3", optional = true, default-features = false, features = [
   "fmt",
