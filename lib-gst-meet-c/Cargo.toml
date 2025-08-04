@@ -11,7 +11,7 @@ repository = "https://github.com/avstack/gst-meet"
 anyhow = { version = "1", default-features = false }
 glib = { version = "0.19", default-features = false }
 gstreamer = { version = "0.22", default-features = false }
-lib-gst-meet = { version = "0.8", path = "../lib-gst-meet", default-features = false, features = ["tracing-subscriber"] }
+lib-gst-meet = { version = "0.8", path = "../lib-gst-meet", default-features = false, features = ["tracing-subscriber", "tls-rustls-native-roots"] }
 tokio = { version = "1", default-features = false, features = ["rt-multi-thread"] }
 tracing = { version = "0.1", default-features = false }
 
